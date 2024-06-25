@@ -1,5 +1,5 @@
 import fetchCountries from './fetchCountries';
-import debounce from 'lodash.debounce';
+import debounce from './lodash.debounce';
 
 const searchInput = document.querySelector('#search');
 const countryList = document.querySelector('#country-list');
